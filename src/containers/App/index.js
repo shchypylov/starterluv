@@ -6,8 +6,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="app">
-				<Text text="Hello, world" />
-				<img className="twitter" src={heart} />
+				<img style={{width : "100%"}} className="twitter" src={heart} />
 			</div>
 		);
 	} 
